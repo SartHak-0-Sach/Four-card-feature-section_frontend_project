@@ -1,5 +1,79 @@
-*{
+body {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+h1 {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+img {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+}
+
+.heading {
+    width: 40%;
+    margin: auto;
+}
+
+.heading1 {
+    font-weight: normal;
+}
+
+.card {
+    max-width: 350px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px hsl(229, 6%, 66%);
+    border-top-style: solid;
+}
+
+.main {
+    position: relative;
+}
+
+.supervisor {
+    height: 200px;
+    border-top-color: cyan;
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+
+.builder {
+    height: 200px;
+    border-top-color: red;
+    position: absolute;
+    left: 450px;
+    top: 5px;
+}
+
+.karma {
+    height: 200px;
+    border-top-color: orange;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}
+
+.calculator {
+    height: 200px;
+    border-top-color: blue;
+    position: absolute;
+    right: 75px;
+    top: 120px;
+}
+
+.attribution {
+    margin-top: 550px;
+}
+
+.para {
+    text-align: left;
 }
